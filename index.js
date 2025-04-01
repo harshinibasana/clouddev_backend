@@ -11,9 +11,9 @@ app.use(express.json());
 
 
 const db = mysql.createConnection({ 
-   host: 'localhost',  
-   user: 'root', 
-    password: 'harshi',  
+   host: 'cloudclass2-demo.mysql.database.azure.com',  
+   user: 'mysql_admin', 
+    password: 'Happieme@111',  
     database: 'studentdb'
   });
 
