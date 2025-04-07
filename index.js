@@ -8,10 +8,6 @@ app.use(express.json());
 
 // MySQL connection config
 // triggering azure deployment
-ssl: {
-  rejectUnauthorized: true
-}
-
 
 
 const db = mysql.createConnection({ 
