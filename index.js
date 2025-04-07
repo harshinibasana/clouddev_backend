@@ -9,7 +9,6 @@ app.use(express.json());
 // MySQL connection config
 // triggering azure deployment
 
-
 const db = mysql.createConnection({ 
    host: 'cloudclass-ci-cd.mysql.database.azure.com',  
    user: 'mysql_admin', 
