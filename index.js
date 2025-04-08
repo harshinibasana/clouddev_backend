@@ -13,7 +13,10 @@ const db = mysql.createConnection({
    host: 'cloudclass-ci-cd.mysql.database.azure.com',  
    user: 'mysql_admin', 
     password: 'Happie@111',  
-    database: 'studentdb'
+    database: 'studentdb',
+   ssl: {
+  rejectUnauthorized: true
+}
   });
 
 db.connect(err => {
