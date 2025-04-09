@@ -14,6 +14,9 @@ const db = mysql.createConnection({
    user: 'mysql_admin', 
     password: 'Happie@111',  
     database: 'studentdb',
+   ssl: {
+      rejectUnauthorized:true
+   }
   
   });
 
